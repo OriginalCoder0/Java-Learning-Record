@@ -9,10 +9,11 @@ package itwcn;
 
 
 class Person {
-    int age = 10;                          //类中华定义的变量被称作成员变量
+    int age = 10;                          //类中定义的变量被称作成员变量
     void speak() {
-        int age = 30;                      //方法内部定义的变量被称作局部变量
+//        int age = 30;                      //方法内部定义的变量被称作局部变量
         System.out.println("我的年龄:" + age);
+
     }
 }
 public class Exercise03 {
