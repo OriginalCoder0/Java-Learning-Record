@@ -1,0 +1,127 @@
+package cn.edu.exam;
+
+import java.util.Scanner;
+
+/**
+ * @author Administrator
+ *
+ */
+public class Example {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		mppx();
+		//getSum();           // 调用静态方法: 计算2到10的偶数之和
+		//getSumFor();
+		//inputScore();
+		//getDayFromMonth();  // 调用静态方法		
+	}
+	
+	/**使用数组实现冒泡排序*/
+	private static void mppx() {		
+		int iB[] = {1,3,9,2,5};  // 根据赋值的元素个数确定数组的大小
+		int t = 0; // 声明一个过度变量，用于置换相连的两个元素的值
+		int i = 0; // 声明一个变量：引用数组索引下标 
+		int j = 0;
+		for(j=1;j<4;j++) {  // 分别进行多轮比较
+			for(i=0;i<5-j;i++) {  // 依次对相连的两个元素的值做比较，并且将小数子放到前面
+				if(iB[i]<iB[i+1]) {			
+					t = iB[i];       // 用过度变量接受一个元素的值
+					iB[i] = iB[i+1];
+					iB[i+1] = t;
+				}
+			}
+		}
+		for(i=0;i<5;i++) {
+			System.out.println(iB[i] + ",");
+		}
+	}	
+	
+	private static void inputScore() {
+		Scanner scA = new Scanner(System.in);
+		String strName = null;
+		double dScore = 0.00;
+		String strPJ = "不及格";
+		
+		// 如果要连续输入多个同学的成绩，怎么办呢？
+		// 使用循环结构语句：
+		int iA = 0;  // 接受用户选择是否继续的数字
+		do {
+			System.out.println("请输入学生姓名：");
+			strName = scA.next();	// 接受输入的姓名
+			System.out.println("请输入" + strName + "同学的成绩：");
+			dScore = scA.nextDouble();	
+			if(dScore>=90) {
+				strPJ = "优秀";
+			}else if(dScore>=80) {
+				strPJ = "良好";
+			}else if(dScore>=60) {
+				strPJ = "及格";
+			}else {
+				strPJ = "不及格";
+			}
+			System.out.println(strName + "同学的得分：" + dScore + "成绩：" + strPJ);
+			System.out.println("请输入选择编号：" );
+			System.out.println("    0 ——结束；1——继续" );
+			iA = scA.nextInt();
+		}while(iA==1);	
+		scA.close();
+	}
+	
+	/**
+	 * 自定义方法：根据月份输出天数
+	 * */
+	private static void getDayFromMonth() {
+		Scanner scA = new Scanner(System.in);
+		// 根据月份输出当月天数：
+		int month = 0; // 存储月份的数字
+		int day = 0; // 保存天数
+		System.out.println("请输入月份：");
+		month = scA.nextInt();
+		switch (month) {
+			case 1:
+			case 3:
+			case 5:
+			case 7:
+			case 8:
+			case 10:
+			case 12:
+				day = 31;
+				break; // 跳出当前switch结构语句。截断执行
+			case 2:
+				day = 28;
+				break;
+			case 4:
+			case 6:
+			case 9:
+			case 11:
+				day = 30;
+				break;
+			default:
+				System.out.println("不是一个合法的月份！");
+				break;
+		}
+		System.out.println(month + "月有：" + day);
+		scA.close();
+	}	
+		
+	/**计算2到10的偶数之和*/
+	private static void getSum() {
+		int i = 2, sum = 0;
+		while(i<=10) {
+			sum = sum + i;
+			i = i + 2;
+		}
+		System.out.println("从2到10的偶数之和：" + sum);		
+	}
+	
+	/**计算2到10的偶数之和*/
+	private static void getSumFor() {
+		int i = 0, sum = 0;
+		for(i=2;i<=10;i=i+2) {
+			sum = sum + i;
+		}
+		System.out.println("从2到10的偶数之和：" + sum);		
+	}	
+}
