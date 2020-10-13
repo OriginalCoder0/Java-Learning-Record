@@ -29,7 +29,7 @@ public class Example02 {
 	private String name = "CoCo";
 	
 	/**属性变量(成员变量)：描述动物的性别**/
-	private String sex = "母";
+	private String sex = "雌";
 	
 	/**属性变量(成员变量)：描述动物的年龄**/
 	private int age = 1;

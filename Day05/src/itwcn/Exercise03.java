@@ -14,15 +14,15 @@ class Animal03 {
 }
 
 //Dog类继承Animal类
-class Dog extends Animal03{
-    //重写Animal类的shout()方法
-    public void shout() {
-    }
-    //以上代码会报错，不能使用final
-}
+//class Dog extends Animal03{
+//    //重写Animal类的shout()方法
+//    public void shout() {
+//    }
+//    //以上代码会报错，不能使用final
+//}
 public class Exercise03 {
     public static void main(String[] args) {
-        Dog dog = new Dog();
+//        Dog dog = new Dog();
     }
 
 }

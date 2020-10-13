@@ -3,6 +3,8 @@
  */
 package itwcn;
 
+import java.util.Scanner;
+
 /**
  * @author Administrator
  *
@@ -15,6 +17,17 @@ public class Example01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		bubble_sort();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("输入第一个变量A：");
+		int a = scanner.nextInt();
+		System.out.println("输入第二个变量B：");
+		int b = scanner.nextInt();
+		System.out.println("A=" + a + "\tB=" + b);
+		//变量交换
+		a = a ^ b;
+		b = b ^ a;
+		a = a ^ b;
+		System.out.println("A=" + a + "\tB=" + b);
 	}
 	private static void bubble_sort() {
 		int iArr[] = new int[5];			//声明一个5个变量存储空间的数组
@@ -39,7 +52,8 @@ public class Example01 {
 //				}
 //			}
 //		}
-		
+
+
 		for(i = 0;i<4;i++) {
 			for(j = n-1;j>i;j--) {
 				if(iArr[j]<iArr[j-1]) {
@@ -54,4 +68,5 @@ public class Example01 {
 		}
 		System.out.println(" ");
 	}
+
 }
