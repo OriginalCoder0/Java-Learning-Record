@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/src/Day08/Example01.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Day09/Example02.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Day10/Example03.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Day11/Example11.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/Test" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/Test/Test.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/edu/Animal.java" charset="GBK" />
@@ -12,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/src/itwcn/Dog.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/itwcn/Example01.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/itwcn/Fish.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/study/Example01.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
