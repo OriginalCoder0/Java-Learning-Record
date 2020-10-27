@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.edu;
+
+/**
+ * @author Administrator
+ *
+ */
+public interface Circle {
+	public abstract double getCircleArea();
+	//定义了一个方法
+}

@@ -1,0 +1,14 @@
+package com.itwcn;
+/**
+ * 使用final修饰的类不能被继承
+ * @author Administrator
+ *
+ */
+public final class Ball extends Circle{
+	public Ball() {
+		super();
+	}
+	public ball(double r) {
+		super();
+	}
+}
