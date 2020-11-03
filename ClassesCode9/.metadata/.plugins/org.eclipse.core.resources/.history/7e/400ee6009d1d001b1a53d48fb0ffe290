@@ -1,0 +1,27 @@
+package itwcn.com;
+
+/**
+ * 
+ * @author Administrator
+ *
+ */
+public class Test {
+	/**
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Kangaroo k = new Kangaroo();	//创建大袋鼠的内部类实例
+		k.setName("大袋鼠");
+		k.setAge(5);
+		k.setKind("袋鼠");
+		
+		k.testInnerClass();
+		
+		
+		Kangaroo.smallKangaroo sk = new Kangaroo().new smallKangaroo();
+	}
+
+}

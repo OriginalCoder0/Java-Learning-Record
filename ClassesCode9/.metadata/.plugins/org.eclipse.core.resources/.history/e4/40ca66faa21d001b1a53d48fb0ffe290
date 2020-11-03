@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package itwcn.com;
+
+import java.util.Scanner;
+
+/**
+ * @author Administrator
+ *
+ */
+public class sort {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("ÇëÊäÈëÊı¾İ£º");
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

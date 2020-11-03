@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package itwcn.com;
+
+/**
+ * @author Administrator
+ *
+ */
+public interface ISmallKangaroo {
+	
+	
+}

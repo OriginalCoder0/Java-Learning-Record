@@ -1,0 +1,22 @@
+package itwcn.com;
+
+/**
+ * 
+ * @author Administrator
+ *
+ */
+public class Test {
+	/**
+	 * 
+	 * @param args
+	 */
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Kangaroo k = new Kangaroo();
+		k.setName("寄期報");
+		k.setAge(5);
+		k.setKind("期報");
+	}
+
+}

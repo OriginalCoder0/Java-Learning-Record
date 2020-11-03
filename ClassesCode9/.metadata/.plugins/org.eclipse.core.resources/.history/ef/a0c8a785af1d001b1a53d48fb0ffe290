@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package itwcn.edu;
+
+/**
+ * @author Administrator
+ *
+ */
+public class Student {
+	private String name = null;
+	private double score = 0.0;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getScore() {
+		return this.score;
+	}
+	public void setScore(float sc) {
+		this.score = sc;
+	}
+	
+	public void student();
+	
+
+}
