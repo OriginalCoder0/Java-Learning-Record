@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package circle;
+
+/**
+ * @author Administrator
+ *
+ */
+public interface ICircle {
+
+}

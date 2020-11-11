@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package circle;
+
+/**
+ * 	½Ó¿Ú£º
+ * @author Administrator
+ *
+ */
+public interface ICircle {
+	public  getArea(double r);
+
+}

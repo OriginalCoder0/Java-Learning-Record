@@ -56,10 +56,14 @@ public class Test {
 		
 		
 		
+		
+		
 		//try...catch的代码实践
 		try {
+			//可能发生的异常
 			System.out.println("球的体积是：" + ((Ball)c1).gettiji());
 		} catch (Exception e) {
+			//对捕获到的异常进行处理
 			System.out.println("发生异常了！");
 			e.printStackTrace();
 		} finally {

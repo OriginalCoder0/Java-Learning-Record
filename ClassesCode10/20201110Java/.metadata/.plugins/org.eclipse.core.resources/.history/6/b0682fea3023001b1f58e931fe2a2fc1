@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package circle;
+
+/**
+ * @author Administrator
+ *
+ */
+public interface ICircle {
+	public abstract getArea(double r) {
+		
+	}
+
+}

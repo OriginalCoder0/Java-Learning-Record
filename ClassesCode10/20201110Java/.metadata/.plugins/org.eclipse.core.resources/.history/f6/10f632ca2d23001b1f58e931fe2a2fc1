@@ -1,0 +1,5 @@
+package itwcn.com;
+
+public interface ICircle {
+	public abstract double getArea(double r)
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package circle;
+
+/**
+ * @author Administrator
+ *
+ */
+public class Test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {	//使用匿名内部类实现接口
+		// TODO Auto-generated method stub
+		ICircle c  = new ICircle();
+		public double getArea(double r) {
+			
+		}
+	}
+
+}

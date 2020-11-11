@@ -1,0 +1,18 @@
+package itwcn.com;
+
+/**
+ * @author Administrator
+ *	×Ö·û´®µÄ×ª»»²Ù×÷
+ */
+public class Example04 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "java";
+		
+	}
+
+}

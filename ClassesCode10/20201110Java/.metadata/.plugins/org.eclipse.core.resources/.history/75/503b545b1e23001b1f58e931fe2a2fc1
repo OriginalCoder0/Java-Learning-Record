@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package itwcn.com;
+
+/**
+ * @author Administrator
+ *
+ */
+public class Example02 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "abcdefgadeabcadefgh";	//初始化字符串
+		String a = "AmbiTIOUS Ant";		//初始化a字符串
+		String b = " Original Coder       ";
+		System.out.println("字符串长度：" + s.length());
+		System.out.println("字符串的第一个字符：" + s.charAt(0));
+		System.out.println("字母c第一次出现的位置：" + s.indexOf('c'));
+		System.out.println("字母c最后一次出现的位置：" + s.lastIndexOf('c'));
+		System.out.println("子字符串第一次出现的位置：" + s.indexOf("abc"));
+		System.out.println("子字符串最后一次出现的位置：" + s.lastIndexOf("abc"));
+		System.out.println("将字符串全部转换为大写字母：" + s.toUpperCase());
+		System.out.println("将a字符串转换为小写字母：" + a.toLowerCase());
+		System.out.println("截取ade及其以后的内容：" + s.substring(7));
+		System.out.println("指定截取的内容：" + s.substring(3, 9));
+		System.out.println("返回一个新字符串，去掉收尾的空格：" + b.trim());
+	}
+
+}
