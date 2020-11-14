@@ -12,7 +12,6 @@ class Outer {
     void test1() {
         System.out.println("外部类成员方法");
     }
-
     //定义成员内部类
     class Inner {
         int n = 1;

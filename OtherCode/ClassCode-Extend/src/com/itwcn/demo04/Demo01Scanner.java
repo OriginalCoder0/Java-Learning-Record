@@ -22,6 +22,7 @@ import java.util.Scanner;
  *      对象名.成员方法名()
  *   获取键盘输入的一个int数字：int num = sc.nextInt();
  *   获取键盘输入的一个字符串：String str = sc.next();
+ *
  * */
 public class Demo01Scanner {
 
