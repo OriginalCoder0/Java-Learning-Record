@@ -1,4 +1,4 @@
-package itwcn.edu.com.demo01;
+package itwcn.edu.com.demo02;
 
 /**
  * @program: Demo01StringEquals
@@ -19,6 +19,7 @@ package itwcn.edu.com.demo01;
  *
  * public boolean equalIgnoreCase(String str):忽略大小写，进行内容的比较。
  *
+ * @author 王佳涵
  */
 public class Demo01StringEquals {
     public static void main(String[] args) {
