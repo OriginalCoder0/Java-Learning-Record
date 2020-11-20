@@ -1,5 +1,0 @@
-package itwcn.com;
-
-public interface ICircle {
-
-}
